@@ -1,5 +1,3 @@
-// A simple multi-threaded Java application demonstrating basic threading concepts.
-
 class Task implements Runnable {
     private final String taskName;
 
@@ -53,3 +51,4 @@ public class MultiThreadedApplication {
         System.out.println("All tasks are completed. Exiting application.");
     }
 }
+
